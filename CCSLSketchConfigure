@@ -1,0 +1,12 @@
+<Configure>
+    <TestCase rootDir="/Users/huming/Desktop/data/test2020"
+              sourceDir="/select/"
+              traceDir="/select/trace"
+              sourceFileName="configure_t3.xml"
+              resultDir="/Users/huming/Desktop/sketch/result"
+              sketchDir="/Users/huming/Desktop/sketch"
+              sketchResultDir="/Users/huming/Desktop/sketch/testResult"
+              sketchResultName="result"
+              maxLength="100"
+    />
+</Configure>

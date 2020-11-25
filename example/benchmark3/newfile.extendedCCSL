@@ -1,0 +1,67 @@
+/*
+ * CCSL specification
+ * @author:  huming
+ * date :  星期二 十月 16 2018  01:27:22 CST 
+ */
+ClockConstraintSystem newfile {
+    imports {
+        // import statements
+		import "platform:/plugin/fr.inria.aoste.timesquare.ccslkernel.model/ccsllibrary/kernel.ccslLib" as lib0; 
+		import "platform:/plugin/fr.inria.aoste.timesquare.ccslkernel.model/ccsllibrary/CCSL.ccslLib" as lib1; 
+
+    }
+    entryBlock main
+    Block main {
+		Expression e0 = Intersection(Clock1->c0,Clock2->c1)
+    	Expression e1 = Intersection(Clock1->c2,Clock2->c3)
+    	Expression e2 = Intersection(Clock1->c4,Clock2->c5)
+    	Expression e3 = Union(Clock1->c0,Clock2->c1)
+    	Expression e4 = Union(Clock1->c2,Clock2->c3)
+    	Expression e5 = Union(Clock1->c4,Clock2->c5)
+//    	Expression e6 = Intersection(Clock1->c16,Clock2->c17)
+//    	Expression e7 = Inf(Clock1->c16,Clock2->c17)
+//    	Expression e8 = Inf(Clock1->c1,Clock2->c2)
+//    	Expression e9 = Intersection(Clock1->c9,Clock2->c11)
+		Relation r0[Coincides](Clock1->c4,Clock2->e0)
+		Relation r1[Coincides](Clock1->c5,Clock2->e1)
+        Relation r2[Precedes](LeftClock->e3,RightClock->e4)
+        Relation r3[Precedes](LeftClock->c6,RightClock->c7)
+        Relation r4[Precedes](LeftClock->c7,RightClock->c8)
+        Relation r5[SubClock](LeftClock->c9,RightClock->c6)
+        Relation r6[Precedes](LeftClock->c10,RightClock->c9)
+        Relation r7[SubClock](LeftClock->c11,RightClock->c10)
+        Relation r8[Exclusion](Clock1->c11,Clock2->c12)
+        Relation r9[Precedes](LeftClock->c11,RightClock->c13)
+        Relation r10[Exclusion](Clock1->c12,Clock2->c13)
+        Relation r11[Exclusion](Clock1->c17,Clock2->c15)
+        Relation r12[SubClock](LeftClock->c14,RightClock->c15)
+        Relation r13[Precedes](LeftClock->c16,RightClock->e5)
+        Relation r14[Precedes](LeftClock->c17,RightClock->c18)
+        Relation r15[Precedes](LeftClock->c18,RightClock->c19)
+		Clock c0
+        Clock c1
+        Clock c2
+        Clock c3
+        Clock c4
+        Clock c5
+        Clock c6
+        Clock c7
+        Clock c8
+        Clock c9
+        Clock c10
+        Clock c11
+        Clock c12
+        Clock c13
+        Clock c14
+        Clock c15
+        Clock c16
+        Clock c17
+        Clock c18
+        Clock c19
+//        Relation r15[SubClock](LeftClock->e6,RightClock->c18)
+//		Relation r16[Precedes](LeftClock->e2,RightClock->c19)
+//        Relation r17[Precedes](LeftClock->e8,RightClock->e7)
+//        Relation r18[Precedes](LeftClock->e9,RightClock->c19)
+
+	}
+}

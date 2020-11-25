@@ -1,0 +1,28 @@
+<CCSLConfigure>
+    <relations>
+        <relation type='0' leftClock="" rightClock="e0"/>
+        <relation type='0' leftClock="c5" rightClock=""/>
+        <relation type='1' leftClock="" rightClock="e4"/>
+        <relation type='1' leftClock="c6" rightClock=""/>
+        <relation type='1' leftClock="" rightClock="c8"/>
+        <relation type='4' leftClock="c9" rightClock=""/>
+        <relation type='1' leftClock="" rightClock="c9"/>
+        <relation type='4' leftClock="c11" rightClock=""/>
+        <relation type='3' leftClock="" rightClock="c12"/>
+        <relation type='1' leftClock="" rightClock="c13"/>
+        <relation type='3' leftClock="" rightClock="c13"/>
+        <relation type='3' leftClock="" rightClock="c15"/>
+        <relation type='4' leftClock="" rightClock="c15"/>
+        <relation type='1' leftClock="c16" rightClock=""/>
+        <relation type='1' leftClock="c17" rightClock=""/>
+        <relation type='1' leftClock="c18" rightClock=""/>
+    </relations>
+    <expressions>
+        <expression name="e0" type='1' leftClock="c0" rightClock="c1" addition=""/>
+        <expression name="e1" type='1' leftClock="c2" rightClock="c3" addition=""/>
+        <expression name="e2" type='1' leftClock="c4" rightClock="c5" addition=""/>
+        <expression name="e3" type='0' leftClock="c0" rightClock="c1" addition=""/>
+        <expression name="e4" type='0' leftClock="c2" rightClock="c3" addition=""/>
+        <expression name="e5" type='0' leftClock="c4" rightClock="c5" addition=""/>
+    </expressions>
+</CCSLConfigure>

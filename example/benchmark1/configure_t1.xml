@@ -1,0 +1,10 @@
+<CCSLConfigure>
+    <relations>
+        <relation type='-1' leftClock="c0" rightClock="c1"/>
+        <relation type='-1' leftClock="c1" rightClock="c2"/>
+        <relation type='-1' leftClock="c3" rightClock="e0"/>
+    </relations>
+    <expressions>
+        <expression name="e0" type='1' leftClock="c0" rightClock="c1" addition=""/>
+    </expressions>
+</CCSLConfigure>

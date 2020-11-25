@@ -62,7 +62,6 @@ public class CCSLSketchConfigure {
                 traceDir= map.getNamedItem("traceDir").getNodeValue();
                 sourceFileName= map.getNamedItem("sourceFileName").getNodeValue();
                 resultDir= map.getNamedItem("resultDir").getNodeValue();
-                sketchDir= map.getNamedItem("sketchDir").getNodeValue();
                 sketchResultDir= map.getNamedItem("sketchResultDir").getNodeValue();
                 sketchResultName= map.getNamedItem("sketchResultName").getNodeValue();
                 maxLength= Integer.parseInt(map.getNamedItem("maxLength").getNodeValue());

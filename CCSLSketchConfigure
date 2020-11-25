@@ -1,12 +1,11 @@
 <Configure>
-    <TestCase rootDir="/Users/huming/Desktop/data/test2020"
-              sourceDir="/select/"
-              traceDir="/select/trace"
-              sourceFileName="configure_t3.xml"
-              resultDir="/Users/huming/Desktop/sketch/result"
-              sketchDir="/Users/huming/Desktop/sketch"
-              sketchResultDir="/Users/huming/Desktop/sketch/testResult"
-              sketchResultName="result"
+    <TestCase rootDir="/your_example_dir"
+              sourceDir="/your_ccsl_file_dir/"
+              traceDir="/your_trace_file_dir"
+              sourceFileName="your_ccsl_file_name.xml"
+              resultDir="/your_result_dir"
+              sketchResultDir="/sketch_result_file_dir"
+              sketchResultName="sketch_result_file_name"
               maxLength="100"
     />
 </Configure>

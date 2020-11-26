@@ -33,7 +33,7 @@ CCSLSketch
 &emsp;&emsp;└──Main.java
    
 ## Examples
-We give three specifications as benchmark. For each specification, we give four incomplete specifications and some expected timing behavior (traces). Our tool can synthesize this incomplete specifications to generate complete specification.
+We give three specifications as benchmark. For each specification, we give four incomplete specifications and some expected timing behaviors (traces). Our tool can synthesize this incomplete specifications to generate complete specification.
 ### Benchmark 1
 4 clocks  
 1 expression constraints  

@@ -7,29 +7,29 @@ Secondly, we encode CCSL synthesis problem into sketching problem.
 Finally, we using program synthesis tool SKETCH to synthesize incomplete CCSL specification.
 
 ## Structure
-CCSLSketch
- │──CCSLModel
- │   ├──Clock.java
- │   ├──Expression.java
- │   ├──Relation.java
- │   ├──RelationMap.java
- │   ├──RelationMapItem.java
- │   ├──Varible.java
- │   └──Trace.java
- ├──Parser
- │   ├──ClockPaser.java
- │   ├──ExpressionPaser.java
- │   ├──RelationPaser.java
- │   ├──TracePaser.java
- │   └──XMLFilePaser.java
- ├──Encoder
- │   ├──CCSLEncoder.java
- │   ├──CCSLFunctionEncoder.java
- │   ├──CheckFuncEncoder.java
- │   └──HarnessEncoder.java
- ├──CCSLSKetchConfigure
- ├──FileTool.java
- ├──SketchSynthesizer.java
+CCSLSketch  
+ │──CCSLModel  
+ │   ├──Clock.java  
+ │   ├──Expression.java  
+ │   ├──Relation.java  
+ │   ├──RelationMap.java  
+ │   ├──RelationMapItem.java  
+ │   ├──Varible.java  
+ │   └──Trace.java  
+ ├──Parser  
+ │   ├──ClockPaser.java  
+ │   ├──ExpressionPaser.java  
+ │   ├──RelationPaser.java  
+ │   ├──TracePaser.java  
+ │   └──XMLFilePaser.java  
+ ├──Encoder  
+ │   ├──CCSLEncoder.java  
+ │   ├──CCSLFunctionEncoder.java  
+ │   ├──CheckFuncEncoder.java  
+ │   └──HarnessEncoder.java  
+ ├──CCSLSKetchConfigure.java  
+ ├──FileTool.java  
+ ├──SketchSynthesizer.java  
  └──Main.java
    
 ## Examples

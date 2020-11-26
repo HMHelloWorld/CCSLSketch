@@ -8,29 +8,29 @@ Finally, we using program synthesis tool SKETCH to synthesize incomplete CCSL sp
 
 ## Structure
 CCSLSketch  
- │──CCSLModel  
- │   ├──Clock.java  
- │   ├──Expression.java  
- │   ├──Relation.java  
- │   ├──RelationMap.java  
- │   ├──RelationMapItem.java  
- │   ├──Varible.java  
- │   └──Trace.java  
- ├──Parser  
- │   ├──ClockPaser.java  
- │   ├──ExpressionPaser.java  
- │   ├──RelationPaser.java  
- │   ├──TracePaser.java  
- │   └──XMLFilePaser.java  
- ├──Encoder  
- │   ├──CCSLEncoder.java  
- │   ├──CCSLFunctionEncoder.java  
- │   ├──CheckFuncEncoder.java  
- │   └──HarnessEncoder.java  
- ├──CCSLSKetchConfigure.java  
- ├──FileTool.java  
- ├──SketchSynthesizer.java  
- └──Main.java
+   │──CCSLModel  
+   │   │──Clock.java  
+   │   │──Expression.java  
+   │   │──Relation.java  
+   │   │──RelationMap.java  
+   │   │──RelationMapItem.java  
+   │   │──Varible.java  
+   │   └──Trace.java  
+   ├──Parser  
+   │   │──ClockPaser.java  
+   │   │──ExpressionPaser.java  
+   │   │──RelationPaser.java  
+   │   │──TracePaser.java  
+   │   └──XMLFilePaser.java  
+   ├──Encoder  
+   │   │──CCSLEncoder.java  
+   │   │──CCSLFunctionEncoder.java  
+   │   │──CheckFuncEncoder.java  
+   │   └──HarnessEncoder.java  
+   │──CCSLSKetchConfigure.java  
+   │──FileTool.java  
+   │──SketchSynthesizer.java  
+   └──Main.java
    
 ## Examples
 We give three specifications as benchmark. For each specification, we give four incomplete specifications and some expected timing behavior (traces). Our tool can synthesize this incomplete specifications to generate complete specification.

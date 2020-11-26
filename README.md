@@ -16,13 +16,13 @@ CCSLSketch
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──RelationMapItem.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──Varible.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;└──Trace.java  
-&emsp;&emsp;├──Parser  
+&emsp;&emsp;│──Parser  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──ClockPaser.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──ExpressionPaser.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──RelationPaser.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──TracePaser.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;└──XMLFilePaser.java  
-&emsp;&emsp;├──Encoder  
+&emsp;&emsp;│──Encoder  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──CCSLEncoder.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──CCSLFunctionEncoder.java  
 &emsp;&emsp;│&emsp;&emsp;&emsp;│──CheckFuncEncoder.java  
@@ -35,14 +35,14 @@ CCSLSketch
 ## Examples
 We give three specifications as benchmark. For each specification, we give four incomplete specifications and some expected timing behavior (traces). Our tool can synthesize this incomplete specifications to generate complete specification.
 ### Benchmark 1
-4 clocks
-1 expression constraints
-3 relation constraints
+4 clocks  
+1 expression constraints  
+3 relation constraints  
 ### Benchmark 2
-10 clocks
-5 expression constraints
-10 relation constraints
+10 clocks  
+5 expression constraints  
+10 relation constraints  
 ### Benchmark 3
-20 clocks
-6 expression constraints
-16 relation constraints
+20 clocks  
+6 expression constraints  
+16 relation constraints  

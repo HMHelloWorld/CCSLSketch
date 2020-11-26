@@ -8,29 +8,29 @@ Finally, we using program synthesis tool SKETCH to synthesize incomplete CCSL sp
 
 ## Structure
 CCSLSketch  
-   │──CCSLModel  
-   │   │──Clock.java  
-   │   │──Expression.java  
-   │   │──Relation.java  
-   │   │──RelationMap.java  
-   │   │──RelationMapItem.java  
-   │   │──Varible.java  
-   │   └──Trace.java  
-   ├──Parser  
-   │   │──ClockPaser.java  
-   │   │──ExpressionPaser.java  
-   │   │──RelationPaser.java  
-   │   │──TracePaser.java  
-   │   └──XMLFilePaser.java  
-   ├──Encoder  
-   │   │──CCSLEncoder.java  
-   │   │──CCSLFunctionEncoder.java  
-   │   │──CheckFuncEncoder.java  
-   │   └──HarnessEncoder.java  
-   │──CCSLSKetchConfigure.java  
-   │──FileTool.java  
-   │──SketchSynthesizer.java  
-   └──Main.java
+&emsp;&emsp;│──CCSLModel  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──Clock.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──Expression.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──Relation.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──RelationMap.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──RelationMapItem.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──Varible.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;└──Trace.java  
+&emsp;&emsp;├──Parser  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──ClockPaser.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──ExpressionPaser.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──RelationPaser.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──TracePaser.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;└──XMLFilePaser.java  
+&emsp;&emsp;├──Encoder  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──CCSLEncoder.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──CCSLFunctionEncoder.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;│──CheckFuncEncoder.java  
+&emsp;&emsp;│&emsp;&emsp;&emsp;└──HarnessEncoder.java  
+&emsp;&emsp;│──CCSLSKetchConfigure.java  
+&emsp;&emsp;│──FileTool.java  
+&emsp;&emsp;│──SketchSynthesizer.java  
+&emsp;&emsp;└──Main.java
    
 ## Examples
 We give three specifications as benchmark. For each specification, we give four incomplete specifications and some expected timing behavior (traces). Our tool can synthesize this incomplete specifications to generate complete specification.

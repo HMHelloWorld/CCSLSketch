@@ -41,10 +41,10 @@ Settings:
 1 expression constraints  
 3 relation constraints  
 #### CCSL Constraint:  
-$c_0\prec c_1$  
-$c_1=c_2$
-$c_3\subseteq e_0$
-$e_0=c_0*c_1$
+$$c_0\prec c_1$$  
+$$c_1=c_2$$  
+$$c_3\subseteq e_0$$  
+$$e_0=c_0*c_1$$
 
 
 

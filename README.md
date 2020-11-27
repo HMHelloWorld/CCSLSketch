@@ -38,6 +38,7 @@ We give three specifications as benchmark. For each specification, we give four 
 ### example 1
 #### CCSL Constraint  
 4 clocks, 1 expression constraints, 3 relation constraints  
+![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1.png?raw=true)
 
 #### Incomplete CCSL Constraint  
 case1 hole settings:  

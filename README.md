@@ -36,25 +36,8 @@ CCSLSketch
 ## Benchmarks
 We give three specifications as benchmark. For each specification, we give four incomplete specifications and some expected timing behaviors (traces). Our tool can synthesize this incomplete specifications to generate complete specification.
 ### example 1
-#### CCSL Constraint  
 4 clocks, 1 expression constraints, 3 relation constraints  
-![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1.png?raw=true)
-
-#### Incomplete CCSL Constraint  
-case1 hole settings:  
-3 relation operator holes  
-![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1_case1.png?raw=true)  
-case2 hole settings:  
-3 relation clock holes  
-![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1_case2.jpeg?raw=true)  
-case3 hole settings:  
-2 relation operator holes  
-1 expression operator hole  
-![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1_case3.jpeg?raw=true)  
-case4 hole settings:  
-2 relation clock holes
-1 expression clock holes  
-![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1_case4.jpeg?raw=true)  
+[Detail](https://github.com/HMHelloWorld/CCSLSketch/blob/master/example/benchmark1/Readme.md)  
 
 ### example 2
 Settings: 10 clocks, 5 expression constraints, 10 relation constraints  

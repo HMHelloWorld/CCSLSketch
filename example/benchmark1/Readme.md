@@ -15,6 +15,6 @@
 1 expression operator hole  
 ![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1_case3.jpeg?raw=true)  
 ### Case4 hole settings:  
-2 relation clock holes
+2 relation clock holes  
 1 expression clock holes  
 ![](https://github.com/HMHelloWorld/CCSLSketch/blob/master/fig/benchmark1_case4.jpeg?raw=true)

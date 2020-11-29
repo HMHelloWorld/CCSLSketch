@@ -37,9 +37,11 @@ CCSLSketch
 We give three specifications as benchmark. For each specification, we give four incomplete specifications and some expected timing behaviors (traces). Our tool can synthesize this incomplete specifications to generate complete specification.
 ### example 1
 4 clocks, 1 expression constraints, 3 relation constraints  
-[Detail](https://github.com/HMHelloWorld/CCSLSketch/blob/master/example/benchmark1/Readme.md)  
+[Details](https://github.com/HMHelloWorld/CCSLSketch/blob/master/example/benchmark1/Readme.md)  
 
 ### example 2
 Settings: 10 clocks, 5 expression constraints, 10 relation constraints  
+[Details](https://github.com/HMHelloWorld/CCSLSketch/blob/master/example/benchmark2/Readme.md)  
 ### example 3
 Settings: 20 clocks, 6 expression constraints, 16 relation constraints  
+[Details](https://github.com/HMHelloWorld/CCSLSketch/blob/master/example/benchmark3/Readme.md)  

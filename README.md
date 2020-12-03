@@ -7,6 +7,19 @@ Firstly, we parse the incomplete CCSL constraints and traces from xml file to ou
 Secondly, we encode CCSL synthesis problem into sketching problem.
 Finally, we using program synthesis tool SKETCH to synthesize incomplete CCSL specification.
 
+## Requirement
+Our tool use Sketch synthesizer. Thus, you have to install it first. Download the [sketch-1.7.0.tgz](http://people.csail.mit.edu/jsjeon/adaptive-concretization/sketch-1.7.0.tgz) and follow the instruction in it. You may need to set your environment variables as follows:
+
+    export SKETCH_HOME=/path/to/sketch/runtime
+    export PATH=$PATH:$SKETCH_HOME/..
+A harder way is to install it from source code: front-end/back-end. In that case, build architecture-independent version of front-end via:
+
+    <sketch-frontend> $ make assemble-noarch
+and then set your environment variables as follows:
+
+    export SKETCH_HOME=/path/to/sketch-frontend
+    export PATH=$PATH:$SKETCH_HOME/target/sketch-1.7.0-noarch-launchers
+
 ## Structure
 CCSLSketch  
 &emsp;&emsp;│──CCSLModel  

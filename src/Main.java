@@ -9,7 +9,11 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String args[]){
-        CCSLSketchConfigure configure = CCSLSketchConfigure.getConfigure();
+        String confStr = "CCSLSketchConfigure";
+        if (args.length > 0){
+            confStr = args[0];
+        }
+        CCSLSketchConfigure configure = CCSLSketchConfigure.getConfigure(confStr);
         int traceCount = 5;
         int count = 0;
         File traceDir = new File(configure.rootDir + configure.traceDir);//trace文件的路径

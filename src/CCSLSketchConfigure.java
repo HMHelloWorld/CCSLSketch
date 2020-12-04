@@ -21,10 +21,10 @@ public class CCSLSketchConfigure {
     public String sketchResultName="";
     public int maxLength=0;
     private static CCSLSketchConfigure configure = null;
-    public static CCSLSketchConfigure getConfigure(){
+    public static CCSLSketchConfigure getConfigure(String confStr){
         if (configure == null){
             try {
-                configure = new CCSLSketchConfigure();
+                configure = new CCSLSketchConfigure(confStr);
             } catch (ParserConfigurationException e) {
                 e.printStackTrace();
             } catch (SAXException e) {
@@ -35,9 +35,23 @@ public class CCSLSketchConfigure {
         }
         return configure;
     }
-    private CCSLSketchConfigure() throws ParserConfigurationException, IOException, SAXException {
+    public static CCSLSketchConfigure getConfigure(){
+        if (configure == null){
+            try {
+                configure = new CCSLSketchConfigure("");
+            } catch (ParserConfigurationException e) {
+                e.printStackTrace();
+            } catch (SAXException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return configure;
+    }
+    private CCSLSketchConfigure( String confStr) throws ParserConfigurationException, IOException, SAXException {
         Element element = null;
-        File f = new File("CCSLSketchConfigure");
+        File f = new File(confStr);
         DocumentBuilder db = null;
         DocumentBuilderFactory dbf = null;
         // 返回documentBuilderFactory对象

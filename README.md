@@ -54,14 +54,14 @@ This is an example as follow:
     
 For relation/expression operator hole, we need set type='-1'  
 For relation/expression clock hole, we need set leftClock/rightClock=""  
-| type value |   Constaint  |
+The type value of CCSL constraint is as follow
+| Type value |   Constaint  |
 |    ----    |     ----     |
 |      0     | Coincidence  |
 |      1     | Precedence   |
 |      2     | Causality    |
 |      3     | Exclusion    |
 |      4     | Subclock     |
-|    ----    |     ----     |
 |      0     | Union        |
 |      1     | Intersection |
 |      2     | Supremum     |

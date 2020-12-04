@@ -2,7 +2,8 @@
 A Tool for Clock Constraint Specification Language(CCSL)  Synthesis 
 
 ## Workflow
-Our tool consists of three key components: Paser, Encoder, and Sketch synthesizer. All these tool are all developed using JAVA. So users should have a JAVA Runtime environment. We suggest the users to install the JAVA Runtime environment JAVA 1.8.0.  
+Our tool consists of three key components: Paser, Encoder, and Sketch synthesizer. All these tool are all developed using JAVA. So users should have a JAVA Runtime environment. We suggest the users to install the JAVA Runtime environment JAVA 1.8.0.
+You can using JAVA IDE [IntellijIDEA](https://www.jetbrains.com/idea/) open the project directly and run the project after preparing the required files and filling in the path in the configuration file.  
 Firstly, we parse the incomplete CCSL constraints and traces from xml file to our datastructure.
 Secondly, we encode CCSL synthesis problem into sketching problem.
 Finally, we using program synthesis tool SKETCH to synthesize incomplete CCSL specification.

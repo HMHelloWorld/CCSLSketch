@@ -57,7 +57,7 @@ We give 11 specifications for each CCSL constraint
 |   3   | Causality    |   2   |     0      |    1     |
 |   4   | Subclock     |   2   |     0      |    1     |
 |   5   | Exclusion    |   2   |     0      |    1     |
-|   6   | Union        |   3   |     0      |    1     |
+|   6   | Union        |   3   |     1      |    1     |
 |   7   | Intersection |   3   |     1      |    1     |
 |   8   | Infimum      |   3   |     1      |    1     |
 |   9   | Supremum     |   3   |     1      |    1     |

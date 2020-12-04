@@ -38,7 +38,7 @@ You need a configuration file to use the tool. The configuration file marks the 
 
 
 ### CCSL Specification
-We using XML file as input.  
+We using XML file to indicate incomplete CCSL Specification.  
 This is an example as follow:
 
     <CCSLConfigure>
@@ -56,7 +56,22 @@ For relation/expression operator hole, we need set type='-1'
 For relation/expression clock hole, we need set leftClock/rightClock=""  
 
 ### Trace
-We using XML file as input. We use the same file format as TimeSquare
+We using XML file to indicate CCSL schedules. We use the same file format as CCSL simulation tool [TimeSquare](http://timesquare.inria.fr/simple-relation-example/).  
+
+    <trace:Trace name="newfile2018_1113_161243">
+        <logicalSteps nextStep="//@logicalSteps.1">
+            <eventOccurrences referedElement="//@references.0" eState="noTick" fState="noTick"/>
+            <eventOccurrences referedElement="//@references.1" eState="noTick" fState="noTick"/>
+            <eventOccurrences referedElement="//@references.2" eState="noTick" fState="noTick"/>
+            <eventOccurrences referedElement="//@references.3" counter="1"/>
+        </logicalSteps>
+        ...
+    <\trace>
+
+"nextStep" indicates the id of next time.  
+"referedElement" indicates the clock id and we use a txt file to store the clock name with its id.  
+"counter" indicates the tick times of corresponding clock.  
+eState="noTick" indicates that the corresponding clock has no tick at the current time.  
 
 ## Structure
 CCSLSketch  

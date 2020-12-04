@@ -68,10 +68,10 @@ We using XML file to indicate CCSL schedules. We use the same file format as CCS
         ...
     <\trace>
 
-"nextStep" indicates the id of next time.  
+"nextStep" indicates the id of next step.  
 "referedElement" indicates the clock id and we use a txt file to store the clock name with its id.  
 "counter" indicates the tick times of corresponding clock.  
-eState="noTick" indicates that the corresponding clock has no tick at the current time.  
+eState="noTick" indicates that the corresponding clock has no tick at the current step.  
 
 ## Structure
 CCSLSketch  

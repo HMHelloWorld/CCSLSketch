@@ -54,6 +54,20 @@ This is an example as follow:
     
 For relation/expression operator hole, we need set type='-1'  
 For relation/expression clock hole, we need set leftClock/rightClock=""  
+| type value |   Constaint  |
+|    ----    |     ----     |
+|      0     | Coincidence  |
+|      1     | Precedence   |
+|      2     | Causality    |
+|      3     | Exclusion    |
+|      4     | Subclock     |
+|    ----    |     ----     |
+|      0     | Union        |
+|      1     | Intersection |
+|      2     | Supremum     |
+|      3     | Infimum      |
+|      4     | Delay        |
+|      5     | Periodicity  |
 
 ### Trace
 We using XML file to indicate CCSL schedules. We use the same file format as CCSL simulation tool [TimeSquare](http://timesquare.inria.fr/simple-relation-example/).  

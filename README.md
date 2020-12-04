@@ -21,6 +21,22 @@ and then set your environment variables as follows:
     export PATH=$PATH:$SKETCH_HOME/target/sketch-1.7.0-noarch-launchers
 
 ## Input file
+### Configuration file
+You need a configuration file to use the tool. The configuration file marks the path of the input file required by the tool, as well as the path of the output result. This is an example as follow:
+
+    <Configure>
+        <TestCase rootDir="/your_example_dir"
+                  sourceDir="/your_ccsl_file_dir/"
+                  traceDir="/your_trace_file_dir"
+                  sourceFileName="your_ccsl_xml_file_name.xml"
+                  resultDir="/your_result_dir"
+                  sketchResultDir="/sketch_result_file_dir"
+                  sketchResultName="sketch_result_file_name"
+                  maxLength="100"
+        />
+    </Configure>
+
+
 ### CCSL Specification
 We using XML file as input.  
 This is an example as follow:

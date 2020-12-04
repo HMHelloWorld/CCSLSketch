@@ -20,6 +20,28 @@ and then set your environment variables as follows:
     export SKETCH_HOME=/path/to/sketch-frontend
     export PATH=$PATH:$SKETCH_HOME/target/sketch-1.7.0-noarch-launchers
 
+## Input file
+### CCSL Specification
+We using XML file as input.  
+This is an example as follow:
+
+    <CCSLConfigure>
+        <relations>
+            <relation type='-1' leftClock="c0" rightClock="c2"/>
+            <relation type='-1' leftClock="c1" rightClock="c0"/>
+            <relation type='4' leftClock="c3" rightClock=""/>
+        </relations>
+        <expressions>
+            <expression name="e0" type='0' leftClock="c1" rightClock="c2" addition=""/>
+        </expressions>
+    </CCSLConfigure>
+    
+For relation/expression operator hole, we need set type='-1'  
+For relation/expression clock hole, we need set leftClock/rightClock=""  
+
+### Trace
+We using XML file as input. We use the same file format as TimeSquare
+
 ## Structure
 CCSLSketch  
 &emsp;&emsp;│──CCSLModel  
@@ -49,7 +71,7 @@ CCSLSketch
 ## Benchmarks
 
 ### Benchmarks for single CCSL constraint
-We give 11 specifications for each CCSL constraint
+We give 11 specifications for each CCSL constraint. These examples are from [TimeSquare](http://timesquare.inria.fr/simple-relation-example/).  
 | index |   Constaint  | Clock | Expression | Relation |
 | ----  |     ----     | ----  |    ----    |   ----   |
 |   1   | Coincidence  |   2   |     0      |    1     |
